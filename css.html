@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .div1 {
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+
+        }
+
+        .div1 .right {
+            display: flex;
+            gap: 20px;
+        }
+
+        .div1 .right a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .div2 {
+            padding: 40px 20px;
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .div2 .center {
+            background-color: pink;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .div2 .center h1 {
+            color: red;
+
+        }
+
+        .div2 .center button {
+            background-color: blue;
+            color: white;
+            background-size: 4rem;
+
+        }
+
+        .div3 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 20px;
+            flex-wrap: wrap;
+            text-decoration: solid;
+            color: black;
+            box-shadow: 1px 3px 5px yellow;
+
+        }
+
+        .div3 .left1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: skyblue;
+            padding: 50px;
+            border-radius: 12px;
+        }
+        .div3 .left1 h1 {
+            padding: 20px;
+        }
+        .div3 .left1 p{
+            padding: 12px;
+        }
+        .div3 .left1 button{
+            background-color: blue;
+            padding:10px 45px;
+            border-radius: 12px;
+        }
+        .div4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px;
+        background-color: bisque;
+        margin-top: 20px;
+        }
+        .div5{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: aqua;
+
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        form input{
+            margin-top: 4px;
+            
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <div class="left">
+            <h1>My School</h1>
+        </div>
+        <div class="right">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+        </div>
+    </div>
+    <div class="div2">
+        <div class="center">
+            <h1>Welcome To Our Website</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, saepe?</p>
+            <button>Click Me!</button>
+        </div>
+    </div>
+    <div class="div3">
+        <div class="left1">
+            <h1>gallery photos</h1>
+            <p>click here to see our gallery photos.</p>
+            <button>click</button>
+        </div>
+        <div class="left1">
+            <h1>gallery photos</h1>
+            <p>click here to see our gallery photos.</p>
+            <button>click</button>
+        </div>
+    </div>
+    <div>
+        <div class="div4">
+            <h1>About</h1>
+            <p>We are simple and clean website mede for your convenience. Here you can find
+                useful information, Photos and our location.
+            </p>
+        </div>
+    </div>
+    <div>
+        <div class="div5">
+            <h1>contect</h1>
+            <form>
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your email">
+                <input type="text" placeholder="Enter your query">
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
